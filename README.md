@@ -2,6 +2,8 @@
 
 **MediaMarauder** is a Python script that automates the downloading and organizing of multimedia content — including movies, TV series, anime, documentaries, and docu-series — into structured directories suitable for media servers like Plex, Jellyfin, or Emby. It uses the powerful [TDL Telegram Downloader](https://github.com/iyear/tdl-telegram) to download content directly from Telegram messages.
 
+![Example Gif](https://github.com/Ukly0/MediaMarauder/blob/main/example.gif)
+
 ## 🧠 Features
 
 - Telegram bot integration for easy interaction
