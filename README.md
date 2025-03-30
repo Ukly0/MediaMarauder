@@ -49,7 +49,7 @@ By default, MediaMarauder organizes files under:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/mediamarauder.git
+git clone https://github.com/Ukly0/MediaMarauder.git
 cd mediamarauder
 ```
 
