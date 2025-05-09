@@ -1,8 +1,8 @@
-# MediaMarauder 🎬
+# PlexBot 🎬
 
-**MediaMarauder** is a Python script that automates the downloading and organizing of multimedia content — including movies, TV series, anime, documentaries, and docu-series — into structured directories suitable for media servers like Plex, Jellyfin, or Emby. It uses the powerful [TDL Telegram Downloader](https://github.com/iyear/tdl-telegram) to download content directly from Telegram messages.
+**PlexBot** is a Python script that automates the downloading and organizing of multimedia content — including movies, TV series, anime, documentaries, and docu-series — into structured directories suitable for media servers like Plex, Jellyfin, or Emby. It uses the powerful [TDL Telegram Downloader](https://github.com/iyear/tdl-telegram) to download content directly from Telegram messages.
 
-![Example Gif](https://github.com/Ukly0/MediaMarauder/blob/main/example.gif)
+![Example Gif](https://github.com/Ukly0/PlexBot/blob/main/example.gif)
 
 ## 🧠 Features
 
@@ -24,7 +24,7 @@
 
 ## 📁 Directory Structure
 
-By default, MediaMarauder organizes files under:
+By default, PlexBot organizes files under:
 
 ```
 /media/disk/
@@ -49,8 +49,8 @@ By default, MediaMarauder organizes files under:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/Ukly0/MediaMarauder.git
-cd mediamarauder
+git clone https://github.com/Ukly0/PlexBot.git
+cd PlexBot
 ```
 
 2. Install required packages:
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 1. **Run the bot:**
 
 ```bash
-python mediamarauder.py
+python PlexBot.py
 ```
 
 2. **Telegram Setup:**
@@ -94,7 +94,7 @@ You can send either:
 - A **Telegram link** to a message (e.g., from a channel or group)
 - **Media content directly** (video, document, audio, etc.)
 
-MediaMarauder will:
+PlexBot will:
 
 - Use `tdl` to download the content
 - Organize it in the correct directory
@@ -103,7 +103,7 @@ MediaMarauder will:
 
 ## 🙌 Credits
 
-MediaMarauder uses:
+PlexBot uses:
 
 - [TDL Telegram Downloader](https://github.com/iyear/tdl-telegram) by [@iyear](https://github.com/iyear)
 - [`python-telegram-bot`](https://github.com/python-telegram-bot/python-telegram-bot)
